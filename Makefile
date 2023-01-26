@@ -7,7 +7,7 @@ clean:
 	rm main
 
 main: main.cpp
-		$(CXX) $(CXXFLAGS) main.cpp -o main
+	$(CXX) $(CXXFLAGS) main.cpp -o main
 
 test: test.cpp 
 	$(CXX) $(CXXFLAGS) test.cpp -c
